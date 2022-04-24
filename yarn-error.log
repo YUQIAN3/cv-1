@@ -1,0 +1,35 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add cssnano/package.json -D
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/TeX/texbin:/usr/local/go/bin:/usr/local/aria2/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/opt/fzf/bin:/usr/local/mysql/bin:/usr/local/mysql/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.16.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://github.com/cssnano/package.json: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141091:19)
+      at Object.onceWrapper (events.js:417:28)
+      at ClientRequest.emit (events.js:311:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:714:9)
+      at Object.onceWrapper (events.js:417:28)
+      at TLSSocket.emit (events.js:311:20)
+      at TLSSocket.Socket._onTimeout (net.js:478:8)
+      at listOnTimeout (internal/timers.js:549:17)
+      at processTimers (internal/timers.js:492:7)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
